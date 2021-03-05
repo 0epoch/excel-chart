@@ -1,0 +1,22 @@
+{
+    "name": "lafeng/excel-chart",
+    "description": "export excel chart",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Super Lafeng",
+            "email": "1@1.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Lafeng\\ExcelChart\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "phpoffice/phpspreadsheet": "1.16.0"
+    }
+}
